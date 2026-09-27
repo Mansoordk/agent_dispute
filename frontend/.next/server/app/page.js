@@ -1,0 +1,13 @@
+var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/app/page.js")
+R.c("server/chunks/ssr/agendispute-frontend-studionet_frontend_162rrew._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__11y0ioo._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0gu6wll._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__20ria8_._.js")
+R.c("server/chunks/ssr/agendispute-frontend-studionet_frontend_app_layout_1k70ca-.js")
+R.c("server/chunks/ssr/176c_next_dist_client_components_17siyzz._.js")
+R.c("server/chunks/ssr/176c_next_dist_client_components_builtin_forbidden_0w530zi.js")
+R.c("server/chunks/ssr/176c_next_dist_client_components_builtin_unauthorized_0xhikw2.js")
+R.c("server/chunks/ssr/176c_next_dist_client_components_builtin_global-error_0i-lec0.js")
+R.c("server/chunks/ssr/0s7o_spute-frontend-studionet_frontend__next-internal_server_app_page_actions_1c7cp88.js")
+R.m(10689)
+module.exports=R.m(10689).exports
