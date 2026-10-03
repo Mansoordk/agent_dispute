@@ -1,3 +1,0 @@
-module.exports=[27429,a=>{"use strict";var b=a.i(93203);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{children:a})})},"metadata",0,{title:"AgentDispute",description:"Trustless agent-to-agent agreements and GenLayer adjudication."}])},74717,function(a){a.n(a.i(27429))}];
-
-//# sourceMappingURL=agendispute-frontend-studionet_frontend_app_layout_1k70ca-.js.map
