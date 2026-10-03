@@ -1,0 +1,6 @@
+'use client';
+import Link from "next/link";import{useEffect,useState}from"react";
+export default function Nav(){const[account,setAccount]=useState("");
+useEffect(()=>{if(!window.ethereum)return;window.ethereum.request({method:"eth_accounts"}).then(a=>a?.[0]&&setAccount(a[0]));const f=a=>setAccount(a?.[0]||"");window.ethereum.on("accountsChanged",f);return()=>window.ethereum.removeListener("accountsChanged",f)},[]);
+async function connect(){if(!window.ethereum){alert("Install MetaMask or another EVM wallet.");return}const a=await window.ethereum.request({method:"eth_requestAccounts"});setAccount(a?.[0]||"")}
+return <nav className="border-b border-slate-800 bg-black/30"><div className="shell !py-4 flex items-center justify-between gap-5"><Link href="/" className="font-black text-xl">Agent<span className="text-cyan-400">Dispute</span></Link><div className="hidden md:flex gap-5 text-sm text-slate-400"><Link href="/create">Create agreement</Link><Link href="/disputes">Disputes</Link></div><button className="btn btn-primary text-sm" onClick={connect}>{account?`${account.slice(0,6)}…${account.slice(-4)}`:"Connect wallet"}</button></div></nav>}

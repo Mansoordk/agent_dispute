@@ -1,0 +1,1 @@
+export default function StatusBadge({status}){return <span className="badge text-cyan-300">{String(status||"UNKNOWN")}</span>}
