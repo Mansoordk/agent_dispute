@@ -1,4 +1,0 @@
-.env.localgit add .
-node_modules/
-frontend/node_modules/
-git commit -m "Initial commit of agentdispute"
